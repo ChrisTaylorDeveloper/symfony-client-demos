@@ -12,4 +12,10 @@ class HomeController extends AbstractController
     {
         return $this->render('home.html.twig');
     }
+
+    #[Route('/google-docs-picker')]
+    public function googleDocsPicker(): Response
+    {
+        return $this->render('google-docs-picker.html.twig');
+    }
 }
