@@ -16,6 +16,12 @@ class HomeController extends AbstractController
     #[Route('/google-docs-picker')]
     public function googleDocsPicker(): Response
     {
-        return $this->render('google-docs-picker.html.twig');
+        return $this->render('google-drive/google-docs-picker.html.twig');
+    }
+
+    #[Route('/google-docs-embed')]
+    public function googleDocsEmbed(): Response
+    {
+        return $this->render('google-drive/google-docs-embed.html.twig');
     }
 }
