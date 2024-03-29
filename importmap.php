@@ -35,4 +35,7 @@ return [
         'version' => '5.3.3',
         'type' => 'css',
     ],
+    'jquery-ui' => [
+        'version' => '1.13.2',
+    ],
 ];
